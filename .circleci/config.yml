@@ -45,7 +45,7 @@ workflows:
   #workflow名
   test-deploy:
     jobs:
-      - ci:
+      - test:
           filters:
             branches:
               only:
